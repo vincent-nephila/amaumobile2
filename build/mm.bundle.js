@@ -10146,7 +10146,7 @@ angular.module('mm.addons.files')
     };
     return self;
 }]);
-
+/*
 angular.module('mm.addons.files')
 .factory('$mmaFilesHandlers', ["$log", "$mmaFiles", function($log, $mmaFiles) {
     $log = $log.getInstance('$mmaFilesHandlers');
@@ -10366,7 +10366,7 @@ angular.module('mm.addons.files')
     }
     return self;
 }]);
-
+*/
 angular.module('mm.addons.frontpage')
 .factory('$mmaFrontpage', ["$mmSite", "$log", "$q", "$mmCourse", function($mmSite, $log, $q, $mmCourse) {
     $log = $log.getInstance('$mmaFrontpage');
